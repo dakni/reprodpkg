@@ -5,8 +5,11 @@ Authors@R: person("Daniel", "Knitter", email = "knitter@geographie.uni-kiel.de",
 Description: Ben Marwick and Sophie C. Schmidt wrote instructions on creating a package for reproducible research. However, they focused on RStudio. This test package here is an attempt to create a reproducible environment without the need to use RStudio
 Depends: R (>= 3.4.1)
 License: GPL-3 + file LICENSE
-Imports: raster
+Imports: raster,
+    bookdown
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/dakni/reprodpkg
 BugReports: https://github.com/dakni/reprodpkg/issues
+Suggests: testthat
+RoxygenNote: 6.0.1
